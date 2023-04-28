@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
       <i class="fa-brands fa-slack"></i>
       <i class="fa-solid fa-shield-halved"></i>
       <i class="fa-solid fa-globe"></i>
-    </div>
 
-    
+
+      <Footer/>
+    </div>
   );
 }
 
